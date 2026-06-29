@@ -14,5 +14,6 @@
 除了复现模型之外，这个项目还包括对盘古天气核心组件的详细实现和分析，
 包括Patch嵌入、Patch恢复、EarthAttention3D模块、自回归推理、评估指标（RMSE、MAE、ACC）以及预测结果的可视化。
 该项目既是对PyTorch实现的忠实复现，也是一项对现代基于AI的数值天气预测模型的全面研究。
+
 <img width="846" height="525" alt="image" src="https://github.com/user-attachments/assets/35a2ddfe-7ef0-46f6-aa8d-1cabe869b1e8" />
 <img width="846" height="525" alt="image" src="https://github.com/user-attachments/assets/9bfb48dd-c8ac-4bef-ae1d-e54aceae5baa" />

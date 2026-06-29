@@ -1,4 +1,6 @@
-<img width="846" height="525" alt="image" src="https://github.com/user-attachments/assets/35a2ddfe-7ef0-46f6-aa8d-1cabe869b1e8" />这是我对盘古气象大模型的复现与研究，基于 PyTorch 的 Pangu-Weather 深度学习模型数值天气预报的重现，
+
+
+这是我对盘古气象大模型的复现与研究，基于 PyTorch 的 Pangu-Weather 深度学习模型数值天气预报的重现，
 为了在有限的计算资源下完成项目，实验在 甘肃省的区域预报任务 上进行，而不是在原始的全球 ERA5 数据集上。
 输入变量与原始 Pangu-Weather 模型使用的保持一致。由于计算限制，
 训练数据集大约包含 两年的 ERA5 数据，以 6 小时间隔（UTC 时间 00:00、06:00、12:00 和 18:00）采样。
@@ -12,3 +14,5 @@
 除了复现模型之外，这个项目还包括对盘古天气核心组件的详细实现和分析，
 包括Patch嵌入、Patch恢复、EarthAttention3D模块、自回归推理、评估指标（RMSE、MAE、ACC）以及预测结果的可视化。
 该项目既是对PyTorch实现的忠实复现，也是一项对现代基于AI的数值天气预测模型的全面研究。
+<img width="846" height="525" alt="image" src="https://github.com/user-attachments/assets/35a2ddfe-7ef0-46f6-aa8d-1cabe869b1e8" />
+<img width="846" height="525" alt="image" src="https://github.com/user-attachments/assets/9bfb48dd-c8ac-4bef-ae1d-e54aceae5baa" />

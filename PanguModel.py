@@ -3,7 +3,7 @@ class PanguModel(torch.nn.Module):
       super().__init__()
       self.drop_list  = np.linspace(0, 0.2, 8)
       self.window_size = (2,2,2)
-      self.patchembedding = PatchEmbedding()
+      self.patchembedding = PatchEmbedding(192，self.window_size)
 
       self.layer1 = EarthSpecificLayer(2,192,self.drop_list[:2],4,self.window_size,(8,24,36))
       self.layer2 = EarthSpecificLayer(2,384,self.drop_list[2:],6,self.window_size,(8,12,18))
